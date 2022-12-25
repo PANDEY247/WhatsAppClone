@@ -1,16 +1,14 @@
 // import logo from './logo.svg';
 import React from "react";
 import './App.css';
-import Sidebar from "./Components/Sidebar";
-
+import {Sidebar} from "./Components/Sidebar";
+import Chat from "./Chat";
 function App() {
   return (
-    // Bem naming convention 
     <div className="app">
       <div className ="app_body">
       <Sidebar/>
-      {/* Chat */}
-
+      <Chat/>
       </div>
     </div> 
   );
