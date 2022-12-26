@@ -6,7 +6,7 @@ import './SidebarChat.css';
 export function SidebarChat({addNewChat}) {
 
     const createChat=() =>{
-        const roomName = prompt("please enter name for chat");
+        // const roomName = prompt("please enter name for chat");
 
     };
 
